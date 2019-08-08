@@ -1,12 +1,5 @@
 # AutoTrimps + genBTC
-![Donate](https://blockchain.info/Resources/buttons/donate_64.png)
-<a href="bitcoin:1genbtcPLjAEk6RnfC66chYniFKfP7vAS">1genbtcPLjAEk6RnfC66chYniFKfP7vAS</a>No one has donated bitcoin yet - be the first and I will be ever eternally grateful<br />
-Automation script for the idle incremental game Trimps, originally based on the zininzinin fork and modified by genBTC (genr8_ on discord)<br />
 
-[![Join the chat at https://gitter.im/AutoTrimps/Lobby](https://badges.gitter.im/AutoTrimps/Lobby.svg)](https://gitter.im/AutoTrimps/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-## Discussion / Discord Channel
-<a href="https://discord.gg/0VbWe0dxB9kIfV2C"><img src="https://pbs.twimg.com/profile_images/568588143226413056/9Lwrixxj.png" width=48></a>
-Discord is a chat program. Come to talk about AutoTrimps, for help, or suggestions for new features : https://discord.gg/0VbWe0dxB9kIfV2C (same one as zininzinin)
 
 ## Current Version (full changes below) - Ongoing Development!
 - This version has beta changes by genBTC, forked from GenBTC. Including Autostance 3, Update to Swiffy Overlay, and Merging of buttons. Please tell me about bugs on Discord
@@ -21,9 +14,6 @@ Discord is a chat program. Come to talk about AutoTrimps, for help, or suggestio
 - Also above MaxMapBonusAfterZone the armor equip is leveled to full cap as well, as an attempt to get more Armor (working on it).
 - Sorry for any bugs or undocumenteds in the meantime.
 - Old Original Zeker450 AutoPerk Preset was changed 2 days ago without notice also. This is your notice That is now called #2, And there is a new one called #3 That it his latest change.
-- v2.1.6.5-stable - Mar 24, Set up <a href='https://genbtc.github.io/AutoTrimps-stable'>Stable Repository</a> for the faint of heart. Equipment changes, see README at <a href='https://github.com/genbtc/AutoTrimps/blob/gh-pages/README.md'>GitHub</a> and check commit history; Sorry for any breakages.
-- v2.1.6.9 - March 23, New: AutoMaps setting combined with RunUniqueMaps. Be advised, the variable has changed from boolean false,true to a value 0,1,2. Settings file has been migrated as such. New: Map SpecialMod is extremely beta and can break your game. Geneticist Infinity fixed. New AGU Settings for 60% Void. Graphs fixes. AutoMaps changes. Equipment level cap improvements.
-- v2.1.6.8 - March 22, Settings GUI, make better. Up/Down graph buttons. Warning notices on import/export. Internal code fixes, gameplay unchanged.
 - v2.1.6.7 - March 20, Moved all the Settings around on you :) Enjoy the new layout. Display Tab: EnhanceGrid + Go AFK Mode. Pinned AT Tab menu bar to top when scrolling.  Graph: Graph: FluffyXP . Continue Development on long TODO list...
 - v2.1.6.6 - March 13, Geneticist management changes. Equipment code improvements. scriptLoad improvements. attempt to track errors.
 - v2.1.6.5 - March 7, Save/Reload Profiles in Import/Export. Magmamancer graph. Magmite/Magma Spam disableable.
@@ -43,10 +33,10 @@ took a break
 
 ***Option 1***: Install TamperMonkey (Chrome) or GreaseMonkey (Firefox)
 
-**EASY INSTALL click here: https://github.com/genbtc/AutoTrimps/raw/gh-pages/.user.js** (the Monkeys will detect this and prompt you to install it)
+**EASY INSTALL click here: https://github.com/idiosync/AutoTrimps/raw/gh-pages/.user.js** (the Monkeys will detect this and prompt you to install it)
 
 Overly detailed Chrome/TamperMonkey Instructions:
-- Open the TamperMonkey dashboard and go to utilities – in the URL box paste https://github.com/genbtc/AutoTrimps/raw/gh-pages/.user.js and click IMPORT
+- Open the TamperMonkey dashboard and go to utilities – in the URL box paste https://github.com/idiosync/AutoTrimps/raw/gh-pages/.user.js and click IMPORT
 - Alternatively, paste the contents of `.user.js` into a user script (pay attention, it says .user.js - this contains 4 lines of code that loads AutoTrimps2.js)
 - The script should automatically load everytime you go to https://trimps.github.io or the game on Kongregate
 - You will know you have the script loaded if you see the Automation and Graphs buttons in the game menu at the bottom
@@ -56,12 +46,12 @@ Overly detailed Chrome/TamperMonkey Instructions:
 
 FireFox/GreaseMonkey instructions:
 - GreaseMonkey identifies userscripts by visiting a URL that ends with ".user.js" in them:
-- Visit this URL, and Agree to install the userscript:  https://github.com/genbtc/AutoTrimps/raw/gh-pages/.user.js
+- Visit this URL, and Agree to install the userscript:  https://github.com/idiosync/AutoTrimps/raw/gh-pages/.user.js
 
 ***Option 2***: Via a Bookmark (does not work with Kongregate - maybe it does now that I added an include kongregate line to the file)
 - Create new bookmark and set its target to:
 ```js
-javascript:with(document)(head.appendChild(createElement('script')).src='https://genbtc.github.io/AutoTrimps/AutoTrimps2.js')._
+javascript:with(document)(head.appendChild(createElement('script')).src='https://idiosync.github.io/AutoTrimps/AutoTrimps2.js')._
 ```
 - This bookmark button has to be clicked manually after you go to https://trimps.github.io
 
