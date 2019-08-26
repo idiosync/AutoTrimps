@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoTrimpsV2
 // @version      2.1.6.9b-genbtc-4-2-2018
-// @updateURL    https://github.com/genbtc/AutoTrimps/AutoTrimps2.js
+// @updateURL    https://github.com/idiosync/AutoTrimps/AutoTrimps2.js
 // @description  Automate all the trimps!
 // @author       zininzinin, spindrjr, belaith, ishakaru, genBTC, Unihedron, coderPatsy
 // @include      *trimps.github.io*
@@ -15,7 +15,7 @@ var ATversion = '2.1.6.9b-genbtc-4-2-2018';
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
 var atscript = document.getElementById('AutoTrimps-script')
-  , basepath = 'https://genBTC.github.io/AutoTrimps/'
+  , basepath = 'https://idiosync.github.io/AutoTrimps/'
   , modulepath = 'modules/'
   ;
 //This should redirect the script to wherever its being mirrored from.
@@ -66,7 +66,7 @@ changelogList.push({date: "4/7", version: "-", description: "AutoPerks Zeker0 ra
 changelogList.push({date: "4/2", version: "v2.1.6.9b", description: "Import Export, Modules Load code Improvements. Multiple Buttons/Settings Were Combined. AutoPerks code was changed but still functions the same, except for a new Fast-Allocate algorithm (now with a checkbox) that reduces the time to allocate for high helium players to near-instantaneous. Please test new algo; it might overshoot. You can also clear all perks then allocate and have it work now.  AutoMaps no longer considered as being in Lead challenge during Chall^2. ", isNew: true});
 changelogList.push({date: "3/23", version: "v2.1.6.9", description: "Game's <u>Map at Zone</u> can be used with AT now, to run maps forever. AutoMaps setting was combined with RunUniqueMaps (variable has changed from boolean false,true to a value 0,1,2). Settings file has been migrated as such. New: Map SpecialMod is sort of working, at least. Geneticist Infinity bugfix. New AGU Settings for 60% Void (fixed). Many Graphs fixes. AutoMaps changes. Equipment Cap, see README at <a target='#' href='https://github.com/genbtc/AutoTrimps/blob/gh-pages/README.md'>GitHub</a> DarkTheme fix. Scientists Fix. Zek450 Perks Preset Changed. Ongoing Development...", isNew: false});
 changelogList.push({date: "3/22", version: "v2.1.6.8", description: "Settings GUI, make better. Import/export improved. Graph buttons: Cycle Up/Down. Internal code fixes. New Graph: Nurseries", isNew: false});
-changelogList.push({date: "3/24", version: "v2.1.6.5-stable", description: "Set up <a target='#' href='https://genbtc.github.io/AutoTrimps-stable'>Stable Repository</a> for the faint of heart.", isNew: true});
+changelogList.push({date: "3/24", version: "v2.1.6.5-stable", description: "Set up <a target='#' href='https://idiosync.github.io/AutoTrimps-stable'>Stable Repository</a> for the faint of heart.", isNew: true});
 //changelogList.push({date: "3/20", version: "v2.1.6.7", description: "Entirely Re-Arranged Settings Layout. Enjoy! New: Display Tab: EnhanceGrid + Go AFK Mode. GUI: Pinned AT Tab menu bar to top when scrolling. Minimize/Maxi/Close Buttons. ShowChangeLog Button. New Graph: FluffyXP&Xp/Hr (starts@300)", isNew: false});
 //changelogList.push({date: "3/13", version: "v2.1.6.6", description: "Geneticist management changes. Equipment code improvements. ATscriptLoad improvements. attempt to track errors.", isNew: false});
 //changelogList.push({date: "3/7", version: "v2.1.6.5", description: "Save/Reload Profiles in Import/Export. Magmamancer graph. Magmite/Magma Spam disableable.", isNew: false});
@@ -85,8 +85,7 @@ function printChangelog() {
     };
     var footer =
         '<b>Ongoing Development</b> - <u>Report any bugs/problems please</u>!\
-        <br>Talk with the dev: <b>genr8_#8163</b> @ <a target="#" href="https://discord.gg/0VbWe0dxB9kIfV2C">AutoTrimps Discord Channel</a>\
-        <br>See<a target="#" href="https://github.com/genbtc/AutoTrimps/blob/gh-pages/README.md">ReadMe</a> Or check <a target="#" href="https://github.com/genBTC/AutoTrimps/commits/gh-pages" target="#">the commit history</a> (if you want).'
+        <br>See<a target="#" href="https://github.com/idiosync/AutoTrimps/blob/gh-pages/README.md">ReadMe</a> Or check <a target="#" href="https://github.com/idiosync/AutoTrimps/commits/gh-pages" target="#">the commit history</a> (if you want).'
     ,   action = 'cancelTooltip()'
     ,   title = 'Script Update Notice<br>' + ATversion
     ,   acceptBtnText = "Thank you for playing AutoTrimps. Accept and Continue."
