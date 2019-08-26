@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         AutoTrimps-genBTC
+// @name         AutoTrimps-idiosync
 // @version      2.1.6.9-genbtc-3-23-2018
 // @namespace    https://idiosync.github.io/AutoTrimps
 // @updateURL    https://idiosync.github.io/AutoTrimps/.user.js
@@ -7,7 +7,7 @@
 // @author       zininzinin, spindrjr, Ishkaru, genBTC
 // @include      *trimps.github.io*
 // @include      *kongregate.com/games/GreenSatellite/trimps
-// @connect      *genbtc.github.io/AutoTrimps*
+// @connect      *idiosync.github.io/AutoTrimps*
 // @connect      *trimps.github.io*
 // @connect      self
 // @grant        none
